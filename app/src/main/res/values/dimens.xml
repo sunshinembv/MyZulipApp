@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indent_0dp">0dp</dimen>
+    <dimen name="indent_4dp">4dp</dimen>
+    <dimen name="indent_5dp">5dp</dimen>
+    <dimen name="indent_8dp">8dp</dimen>
+    <dimen name="indent_10dp">10dp</dimen>
+    <dimen name="indent_12dp">12dp</dimen>
+    <dimen name="indent_16dp">16dp</dimen>
+    <dimen name="indent_40dp">40dp</dimen>
+    <dimen name="indent_72dp">72dp</dimen>
+
+    <dimen name="divider_thickness">32dp</dimen>
+    <dimen name="top_app_bar_channel_icon_size">32dp</dimen>
+    <dimen name="fab_size">48dp</dimen>
+    <dimen name="channel_icon_size">32dp</dimen>
+    <dimen name="user_icon_size">32dp</dimen>
+    <dimen name="contact_icon_size">64dp</dimen>
+    <dimen name="profile_icon_size">64dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="own_message_indent">120dp</dimen>
+    <dimen name="user_message_indent">120dp</dimen>
+    <dimen name="logo_progress_bar_size">120dp</dimen>
+    <dimen name="logo_progress_bar_stroke_width">6dp</dimen>
+    <dimen name="image_size">150dp</dimen>
+
+    <dimen name="shimmer_component_size">64dp</dimen>
+    <dimen name="shimmer_component_icon_size">48dp</dimen>
+    <dimen name="shimmer_component_height">160dp</dimen>
+    <dimen name="shimmer_rectangle_line_height">16dp</dimen>
+    <dimen name="shimmer_rectangle_line_short_width">100dp</dimen>
+    <dimen name="shimmer_rectangle_line_long_width">180dp</dimen>
+</resources>
