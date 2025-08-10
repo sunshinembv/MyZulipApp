@@ -1,20 +1,23 @@
 [versions]
-compose-ui-version = "1.5.4"
-androidx-activity-compose = "1.8.0"
-compose-constraintlayout = "1.0.1"
-androidx-core = "1.12.0"
-androidx-lifecycle = "2.6.2"
-androidx-material = "1.5.4"
-androidx-navigation = "2.7.5"
-coroutines = "1.7.3"
-dagger = "2.48.1"
-room = "2.6.0"
-retrofit = "2.9.0"
-okhttp3 = "5.0.0-alpha.8"
-moshi = "1.14.0"
-accompanist = "0.32.0"
-ksp = "1.9.10-1.0.13"
-coil = "2.5.0"
+compose-ui-version = "1.8.3"
+androidx-activity-compose = "1.10.1"
+compose-constraintlayout = "1.1.1"
+androidx-core = "1.16.0"
+androidx-lifecycle = "2.9.2"
+androidx-material = "1.8.3"
+androidx-navigation = "2.9.3"
+coroutines = "1.10.2"
+dagger = "2.57"
+room = "2.7.2"
+retrofit = "3.0.0"
+okhttp3 = "5.1.0"
+moshi = "1.15.2"
+accompanist = "0.36.0"
+ksp = "2.2.0-2.0.2"
+coil = "2.7.0"
+kotlin = "2.2.0"
+application = "8.12.0"
+compose = "2.2.0"
 
 [libraries]
 #androidx
@@ -68,3 +71,6 @@ coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
 [plugins]
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+application = { id = "com.android.application", version.ref = "application" }
+compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "compose" }

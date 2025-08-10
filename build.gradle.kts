@@ -1,14 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
-    id("com.android.application") version "8.1.1" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+    alias(libs.plugins.application) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.compose) apply false
     alias(libs.plugins.ksp) apply false
 }
 
 subprojects {
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
-        kotlinOptions {
+    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile>().configureEach {
+        compilerOptions {
             val enableMetricsProvider =
                 project.providers.gradleProperty("enableComposeCompilerMetrics")
             val relativePath = projectDir.relativeTo(rootDir)
